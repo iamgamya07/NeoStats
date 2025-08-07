@@ -1,0 +1,15 @@
+# Azure OpenAI Configuration
+# Get your API keys and endpoints from Azure OpenAI service
+# Copy this file to .env and replace with your actual values
+
+# Chat Completion Configuration
+AZURE_CHAT_COMPLETION_API_KEY=your_chat_completion_api_key_here
+AZURE_CHAT_COMPLETION_ENDPOINT=https://your-chat-completion-resource.openai.azure.com/
+AZURE_CHAT_COMPLETION_VERSION=2024-02-15-preview
+AZURE_CHAT_COMPLETION_DEPLOYMENT_GPT=your-chat-completion-deployment-name
+
+# Embedding Configuration
+AZURE_EMBEDDING=your-embedding-deployment-name
+AZURE_EMBEDDING_ENDPOINT=https://your-embedding-resource.openai.azure.com/
+AZURE_EMBEDDING_API_KEY=your_embedding_api_key_here
+AZURE_EMBEDDING_VERSION=2024-02-15-preview 
